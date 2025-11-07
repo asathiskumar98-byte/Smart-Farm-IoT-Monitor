@@ -20,9 +20,9 @@ DHT dht(DHTPIN, DHTTYPE);
 #define MQ2_PIN D7
 
 // Wi-Fi & ThingSpeak
-const char* ssid = "SaThis JeeVa";
-const char* password = "ABCDEFGH";
-String apiKey = "4QQPQ7N1UJJLGKP4";
+const char* ssid = "**Enter SSID**";
+const char* password = "**Enter Password**";
+String apiKey = "**Enter apiKey**";
 const char* server = "api.thingspeak.com";
 
 WiFiClient client;
